@@ -18,6 +18,7 @@ ul {
 
 .header-bg{
  background: #615543;
+ margin: 0 auto;
 }
 
 .marca{
@@ -70,4 +71,10 @@ ul {
 
 .menu-nav a:hover::after{
   width: 100%;
+}
+
+/* banner */
+
+.banner img{
+  margin: 0 auto;
 }
