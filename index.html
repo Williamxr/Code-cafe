@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Noto+Serif&family=Playfair+Display&display=swap" rel="stylesheet">
 
   <title>Codecoffee</title>
 </head>
@@ -18,27 +18,46 @@
 <body>
   <header class="header-bg">
     <div class="header-menu">
-      <img class="marca" src="./img/marca1.png">
+      <a href="./">
+        <img class="marca" src="./img/marca1.png">
+      </a>
 
       <nav class="menu-nav">
         <ul>
-          <li><a>Cafés</a></li>
-          <li><a>Sobre</a></li>
-          <li><a>Contato</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="">Cafés</a></li>
+          <li><a href="">Contato</a></li>
         </ul>
       </nav>
     </div>
 
   </header>
 
-  <section>
-    <div class="banner">
-      <img src="./img/preparo.png">
-    </div>
+  <section class="banner">
+    <img src="./img/preparo.png">
   </section>
 
-  <main>
+  <span class="sobre-h1">
+    <h1>Codecoffee</h1>
+  </span>
 
+  <main class="main">
+
+    <section class="sobre" id="sobre">
+      <img class="cafe-maquina" src="./img/local.jpg">
+    </section>
+
+    <dl class="lista-dl">
+      <dt>Quem somos</dt>
+      <dd>Localizada no coração de Passo Fundo - RS, a Codecoffee é referência na região quando se trata de produtos de alta qualidade. É feita especialmente para você que aprecia um bom café!</dd>
+
+      <dt>Nossos produtos</dt>
+      <dd>Nossos produtos são os melhores do mercado, selecionados a dedo e preparados por excelentes profissionais.</dd>
+
+      <dt>Atendimento</dt>
+      <dd>Com um ambiente confortável e atendentes sempre à disposição, seu café chega até a mesa em poucos minutos.</dd>
+
+    </dl>
 
   </main>
 
