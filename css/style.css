@@ -84,11 +84,36 @@ ul, a {
 
 /* Sobre */
 
+.superinfo-bg{
+  max-width: 1800px;
+  margin: 0 auto;
+  background: rgb(218, 171, 44);
+  color: #fff;
+}
+
+.superinfo{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 12px;
+}
+
+.superinfo a, .superinfo p{
+  margin: 0 12px 12px 12px;
+}
+
+.superinfo a{
+  color: #fff;
+}
+
 .main{
   margin: 0 auto;
   max-width: 1800px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 500px 1fr;
+  gap: 50px;
 }
 
 .sobre-h1 h1{
@@ -100,12 +125,11 @@ ul, a {
 }
 
 .lista-dl{
-  align-self: flex-start;
+  align-self: center;
 }
 
-.cafe-maquina{
+.local{
   height: 700px;
-  width: 500px;
 }
 
 .lista-dl dt{
