@@ -1,0 +1,71 @@
+.header-bg{
+  background: #615543;
+  max-width: 1800px;
+  margin: 0 auto;
+ }
+ 
+ .marca{
+   width: 240px;
+ }
+ 
+ .header-menu {
+   max-width: 1800px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   padding: 5px 0;
+ }
+ 
+ .menu-nav ul{
+   display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ .menu-nav a{
+   font-family: 'Noto Serif';
+   font-size: 1.1rem;
+   color: #f2e1c8;
+   letter-spacing: 1.3px;
+   display: block;
+   padding: 12px 0;
+   text-transform: uppercase;
+   position: relative;
+   margin-left: .7rem;
+   display: flex;
+   align-content: center;
+ }
+ 
+ .menu-nav a::after{
+   content: '';
+   display: block;
+   height: 2px;
+   width: 0px;
+   background: white;
+   margin-top: 24px;
+   transition: 0.4s;
+   position: absolute;
+ }
+ 
+ .menu-nav a:hover{
+   color: #fff;
+   cursor: pointer;
+ }
+ 
+ .menu-nav a:hover::after{
+   width: 100%;
+ }
+
+ @media (max-width: 960px){
+  .menu-nav a{
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+ }
+
+ @media (max-width: 769px){
+  .menu-nav a{
+    font-size: .875rem;
+    letter-spacing: .5px;
+  }
+ }
