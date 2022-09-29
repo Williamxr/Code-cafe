@@ -6,14 +6,6 @@
   gap: 50px;
 }
 
-.sobre-h1 h1{
-  margin: 40px auto;
-  color: #776243;
-  max-width: 1800px;
-  font-family: 'Dancing Script', serif;
-  font-size: 3rem;
-}
-
 .lista-dl{
   align-self: center;
 }
