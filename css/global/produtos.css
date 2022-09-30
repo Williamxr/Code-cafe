@@ -44,7 +44,16 @@
   max-height: 400px;
 }
 
+@media(max-width: 1080px){
+  .produtos{
+    gap: 20px;
+  }
+}
+
 @media (max-width: 960px){
+  .produtos{
+    gap: 10px;
+  }
   .produtos-lista li{
     margin-bottom: 2rem;
     margin-right: 20px;
@@ -91,5 +100,5 @@
 @media(max-width:320px){
   .produtos-img img{
     max-height: 130px;
-  }
+  } 
 }
