@@ -4,4 +4,4 @@
 
 - O projeto Codecoffee é um site fictício sobre uma cafeteria com diversos tipos de café
 
-- Projeto criado e desenvolvido totalmente do zero
+- Projeto criado e desenvolvido totalmente do zero com HTML, CSS e Javascript
