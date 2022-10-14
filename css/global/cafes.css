@@ -1,0 +1,41 @@
+.cafes{
+  display: flex;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  gap: 100px;
+}
+
+.cafeteira{
+  width: 500px;
+}
+
+.produtos-item{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.produtos-item ul{
+  padding: 0 20px;
+}
+
+.produtos-info li{
+  border-bottom: 1px solid rgb(240, 170, 20);
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+.produtos-item li:last-child{
+  border: none;
+}
+
+.produtos-item span{
+  font-weight: bold;
+  padding-right: 15px;
+}
+
+.img-cafe{
+  width: 200px;
+  height: 250px;
+}
