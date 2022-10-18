@@ -76,6 +76,12 @@
   }
  }
 
+ @media(max-width:769px){
+  .footer .marca{
+    display: none;
+  }
+ }
+
  @media (max-width: 460px){
   .footer{
     gap: 80px;
@@ -85,5 +91,8 @@
   }
   .footer-copy{
     margin-top: 10px;
+    font-size: .975rem;
+    margin-right: 120px;
+    width: 200px;
   }
  }
