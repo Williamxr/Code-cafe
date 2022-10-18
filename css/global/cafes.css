@@ -7,17 +7,25 @@
 }
 
 .cafeteira{
-  width: 500px;
+  max-width: 35%;
+}
+
+.menu-cafes{
+  width: 100%;
 }
 
 .produtos-item{
   display: flex;
   align-items: center;
-  padding-bottom: 20px;
+  background-color: #ffe4cd;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .35);
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .produtos-item ul{
   padding: 0 20px;
+  width: 200px;
 }
 
 .produtos-info li{
@@ -36,6 +44,5 @@
 }
 
 .img-cafe{
-  width: 200px;
-  height: 250px;
+  width: 100%;
 }
