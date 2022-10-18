@@ -9,6 +9,7 @@
 .cafeteira{
   max-width: 35%;
   min-width: 350px;
+  height: 860px;
 }
 
 .menu-cafes{
@@ -67,6 +68,12 @@
 @media(max-width: 768px){
   .cafeteira{
     display: none;
+  }
+}
+
+@media(max-width:524px){
+  .marca{
+    height: 200px;
   }
 }
 
