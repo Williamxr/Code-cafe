@@ -1,5 +1,5 @@
 export default function initAnimaScroll(){
-  const sections = document.querySelectorAll('.js-scroll');
+  const sections = document.querySelectorAll('[data-tab="anima-scroll"]');
   const dist = window.innerHeight * 0.7;
 
   if(sections.length){
