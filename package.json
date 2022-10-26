@@ -1,5 +1,5 @@
 {
-  "name": "Codecoffee",
+  "name": "codecoffee",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,13 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
   },
-  "description": ""
+  "description": "- O projeto Codecoffee é um site fictício sobre uma cafeteria com diversos tipos de café",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Williamxr/Code-cafe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Williamxr/Code-cafe/issues"
+  },
+  "homepage": "https://github.com/Williamxr/Code-cafe#readme"
 }
