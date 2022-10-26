@@ -106,10 +106,10 @@
     margin-left: 10px;
   }
   .lista-dl dt{
-    font-size: .875rem;
+    font-size: 1.1rem;
   }
   .lista-dl dd{
-    font-size: .800rem;
+    font-size: .975rem;
     margin-bottom: 1rem;
   }
 }
