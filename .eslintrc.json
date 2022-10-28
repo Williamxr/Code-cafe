@@ -11,6 +11,6 @@
         "sourceType": "module"
     },
     "rules": {
-        "<js>": "always"
+        "import/extensions": 0
     }
 }
