@@ -35,7 +35,15 @@
       <nav class="menu-nav js-menu">
         <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
         <ul data-menu="list" id="menu">
-          <li><a href="#sobre">Sobre</a></li>
+          <li data-dropdown>
+            <a href="#sobre">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a>A empresa</a></li>
+              <li><a>Equipe</a></li>
+              <li><a>Sócios</a></li>
+              <li><a>Investidores</a></li>
+            </ul>
+          </li>
           <li><a href="#cafes">Cafés</a></li>
           <li><a href="#produtos">Produtos</a></li>
           <li><a href="#contato">Contato</a></li>
@@ -203,7 +211,7 @@
         </a>
       </div>
     </div>
-    <p class="footer-copy">Codecoffee &copy; Todos os direitos reservados.</p>
+    <p class="footer-copy">Codecoffee &copy;</p>
   </footer>
 
   <script type="module" src="js/script.js"></script>
