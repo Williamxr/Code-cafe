@@ -2,32 +2,9 @@
   position: relative;
 }
 
-[data-dropdown] .dropdown-menu {
-  display: none;
-}
-
-[data-dropdown]:hover .dropdown-menu,
-[data-dropdown].active .dropdown-menu {
-  display: block;
-  animation: .3s forwards;
-}
-
 .dropdown-menu{
   position: absolute;
-  top: 40px;
   background: #615543;
-  border: 2px solid #f2e1c8;
-  z-index: 20;
-}
-
-.dropdown-menu::before{
-  content: '';
-  display: block;
-  position: absolute;
-  top: -11px;
-  width: 0;
-  height: 0;
-  border-bottom: 10px solid #f2e1c8;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
+  border: 2px solid #fff;
+  z-index: 200;
 }
