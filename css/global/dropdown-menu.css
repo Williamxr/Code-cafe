@@ -1,4 +1,4 @@
-[data-dropdown]{
+/*[data-dropdown]{
   position: relative;
 }
 
@@ -24,10 +24,8 @@
 }
 
 .dropdown-menu{
-  position: absolute;
   top: 45px;
-  background: #615543;
-  border: 2px solid #fff;
+  background: #cfab75;
   z-index: 200;
 }
 
@@ -41,4 +39,4 @@
   border-right: 15px solid transparent;
   border-left: 15px solid transparent;
   border-bottom: 10px solid #fff;
-}
+}*/
